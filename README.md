@@ -10,18 +10,18 @@ This repository accompanies the [Bash Shell Course](https://github.com/abhijeet-
 
 The repository is organized into the following sections:
 
-- **[01-introduction](01-introduction):** Introduction to Bash shell scripting.
-- **[02-variables](02-variables):** Understanding and working with variables.
-- **[03-input](03-input):** Handling user input in scripts.
-- **[04-arrays](04-arrays):** Working with arrays in Bash.
-- **[05-string-operations](05-string-operations):** Performing operations on strings.
-- **[06-arithmetic-calculations](06-arithmetic-calculations):** Scripting basic arithmetic calculations.
-- **[07-conditional-statements](07-conditional-statements):** Writing scripts with conditional statements.
-- **[08-case-commands](08-case-commands):** Utilizing case commands in scripts.
-- **[09-loops](09-loops):** Using different loop structures in scripts.
-- **[10-file-read](10-file-read):** Reading and processing files in Bash.
-- **[11-functions](11-functions):** Creating and using functions in scripts.
-- **[12-command-line-args](12-command-line-args):** Handling command-line arguments in scripts.
+- **[01Introduction.sh](01Introduction.sh):** Introduction to Bash shell scripting.
+- **[02Variables.sh](02Variables.sh):** Understanding and working with variables.
+- **[03Input.sh](03Input.sh):** Handling user input in scripts.
+- **[04Arrays.sh](04Arrays.sh):** Working with arrays in Bash.
+- **[05StringOperations.sh](05StringOperations.sh):** Performing operations on strings.
+- **[06ArithmeticCalculations.sh](06ArithmeticCalculations.sh):** Scripting basic arithmetic calculations.
+- **[07ConditionalStatements.sh](07ConditionalStatements.sh):** Writing scripts with conditional statements.
+- **[08Case.sh](08Case.sh):** Utilizing case commands in scripts.
+- **[09Loops.sh](09Loops.sh):** Using different loop structures in scripts.
+- **[10FileRead.sh](10FileRead.sh):** Reading and processing files in Bash.
+- **[11Functions.sh](11Functions.sh):** Creating and using functions in scripts.
+- **[12CommandLineArgs.sh](12CommandLineArgs.sh):** Handling command-line arguments in scripts.
 
 ## Getting Started
 
