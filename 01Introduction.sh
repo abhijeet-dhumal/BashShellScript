@@ -1,7 +1,10 @@
 #!/bin/bash
 echo "Hello World!, This is my first shell script. :)"
 
-<<comment
+#Single Line Comment
+
+<< commentBlock
+
 Multiline Comment
 
-comment
+commentBlock

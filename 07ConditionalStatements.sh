@@ -24,3 +24,10 @@ greaterThan : -gt
 lessThan : -lt 
 
 ###
+
+<<OUTPUT
+
+Enter your marks : 65
+Second division
+
+OUTPUT

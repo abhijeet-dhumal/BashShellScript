@@ -7,7 +7,8 @@ function myfun {
 }
 myfun
 myfun
-: <<'comment'
+
+<< output
 =>>
 -------------------
 hello
@@ -15,7 +16,7 @@ hello
 -------------------
 hello
 ----------------
-comment
+output
 
 #sum of 2 numbers
 mySum(){
@@ -25,12 +26,14 @@ mySum(){
     echo $(($1+$2))
 }
 mySum 12 13
-: <<'comment'
+
+<< output
 =>>
 First argument: 12
 Second argument: 13
 25
-comment
+output
+
 echo 
 
 # To create calculator frame
@@ -40,3 +43,9 @@ myCalculator(){
     echo "$1$2$3 = $(($1 $2 $3))"
 }
 myCalculator 15 % 12
+
+<< output
+Number of arguments: 3
+All arguments : 15 % 12
+15%12 = 3
+output
