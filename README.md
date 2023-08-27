@@ -21,7 +21,7 @@ The repository is organized into the following sections:
 - **[09Loops.sh](09Loops.sh):** Using different loop structures in scripts.
 - **[10FileRead.sh](10FileRead.sh):** Reading and processing files in Bash.
 - **[11Functions.sh](11Functions.sh):** Creating and using functions in scripts.
-- **[12CommandLineArgs.sh](12CommandLineArgs.sh):** Handling command-line arguments in scripts.
+- **[12CmdLineArgs.sh](12CmdLineArgs.sh):** Handling command-line arguments in scripts.
 
 ## Getting Started
 
