@@ -31,6 +31,7 @@ Please provide at least one command line args
 outputBlock
 
 # to print string 3 times again and again after 2 seconds interval
+echo -e "\nTo print string 3 times using for loop after certaing time interval: "
 for i in {1..3}
 do   
     echo -n "hii buddy! "
@@ -42,12 +43,13 @@ outputBlock
 
 echo 
 
-# TO check exit status
+echo -e "\nTO check exit status: "
 echo $?
 << outputBlock
  0 -- if previous command was successful & 1 if not
 outputBlock
 
+echo -e "\nChecking exit status if change directory to root is accessible: "
 cd /root/ 
 echo $?
 << outputBlock
@@ -55,6 +57,7 @@ echo $?
 1
 outputBlock
 
+echo -e "\nChecking exit status after pinging google.com: "
 ping -c 1 www.google.com
 echo $?
 << outputBlock
@@ -68,6 +71,7 @@ rtt min/avg/max/mdev = 8.303/8.303/8.303/0.000 ms
 0
 outputBlock
 
+echo -e "\nChecking exit status after pinging localhost.com: "
 ping -c 1 localhost.com
 echo $?
 << outputBlock

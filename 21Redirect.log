@@ -1,0 +1,6 @@
+PING www.google.com(bom07s29-in-x04.1e100.net (2404:6800:4009:81f::2004)) 56 data bytes
+From 2620:52:0:4cf0::1fe (2620:52:0:4cf0::1fe) icmp_seq=1 Destination unreachable: No route
+
+--- www.google.com ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
